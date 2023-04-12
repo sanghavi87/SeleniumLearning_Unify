@@ -9,9 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirefoxWebBrowserDemo1 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
-        // 1) To setup the firefox browser:-
+        // 1) To set up the firefox browser:-
         // --------------------------------
         System.setProperty("webdriver.gecko.driver","C:\\Software\\Driver\\firefox driver\\geckodriver.exe");  //path approach use here
 
@@ -31,6 +31,7 @@ public class FirefoxWebBrowserDemo1 {
         // 4) Maximize the browser:-
         //----------------------------
         driver.manage().window().maximize();
+
 
 
 

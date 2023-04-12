@@ -13,7 +13,7 @@ public class ChromeWebBrowserDemo1 {
 
         // 1) To setup the chrome browser:-
         // --------------------------------
-        System.setProperty("webdriver.chrome.driver","C:\\Software\\Driver\\chromedriver.exe");  //path approach use here
+        System.setProperty("webdriver.chrome.driver","C:\\Software\\Driver\\chrome driver\\chromedriver.exe");  //path approach use here
 
 
         // 2) Create Object for web-browser:-
