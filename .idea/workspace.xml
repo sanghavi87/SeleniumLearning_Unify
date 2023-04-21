@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220a7391-c4a9-4dbc-ae3e-f3ecb1abe683" name="Changes" comment="selenium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/b_WebDriverConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/c_LocatorsConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/d_CustomXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/e_CustomCSSSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/h_AlertHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/i_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/j_ActionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/k_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/l_Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/CustomXpathDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/LoginConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/RegisterConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_homework_2_Registration/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_homework_2_Registration/UtilsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/CodeStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_driver_concept/RegisterConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/RegisterConcept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/SeleniumLearning_Unify/src/main/java/seleniumLearningClass_Unify"
+    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/SeleniumLearning_Unify"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,7 +56,7 @@
       <recent name="C:\Users\abhis\IdeaProjects\SeleniumLearning_Unify\src\main\java\seleniumLearningClass_Unify" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirefoxWebBrowserDemo1">
+  <component name="RunManager" selected="Application.RegisterConcept">
     <configuration name="ChromeWebBrowserDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selenium_homework_1_BrowserTest.ChromeWebBrowserDemo1" />
       <module name="SeleniumLearning_Unify" />
@@ -117,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="web_driver_concept.ChromeWebBrowserDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="web_driver_concept.ChromeWebBrowserDemo1" />
+    <configuration name="Registration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium_homework_2_Registration.Registration" />
       <module name="SeleniumLearning_Unify" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web_driver_concept.*" />
+          <option name="PATTERN" value="selenium_homework_2_Registration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirefoxWebBrowserDemo1" />
         <item itemvalue="Application.RegisterConcept" />
+        <item itemvalue="Application.Registration" />
+        <item itemvalue="Application.FirefoxWebBrowserDemo1" />
         <item itemvalue="Application.LoginConcept" />
         <item itemvalue="Application.ChromeWebBrowserDemo1" />
-        <item itemvalue="Application.web_driver_concept.ChromeWebBrowserDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -198,11 +190,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681329754534</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="selenium">
+      <created>1682080542020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682080542020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium" />
     <option name="LAST_COMMIT_MESSAGE" value="selenium" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

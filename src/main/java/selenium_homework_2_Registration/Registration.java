@@ -1,4 +1,4 @@
-package web_driver_concept;
+package selenium_homework_2_Registration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -6,9 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class RegisterConcept extends CodeStore {
-    public static void main(String[] args) {
 
+
+public class Registration extends UtilsClass {
+    public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.get("https://demo.nopcommerce.com/");
@@ -27,10 +28,10 @@ public class RegisterConcept extends CodeStore {
         WebElement Month= driver.findElement(By.name("DateOfBirthMonth"));
         WebElement Year= driver.findElement(By.name("DateOfBirthYear"));
 
-        //we have created "selectValueFromDropDown" method in "Utils" class and we have called that method by using inheritance
-        SelectDateMonthYear(Day, "21");
-        SelectDateMonthYear(Month, "March");
-        SelectDateMonthYear(Year, "1992");
+        //we have created "selectvaluefromdrompown" method in "Utils" class and we have called that method by using inheritance
+        SelectValueFromDropDown(Day, "21");
+        SelectValueFromDropDown(Month, "March");
+        SelectValueFromDropDown(Year, "1992");
 
 
         driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("rohan123@gmail.com");
@@ -38,10 +39,8 @@ public class RegisterConcept extends CodeStore {
         driver.findElement(By.xpath("//input[@id='Newsletter']")).click();
         driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("rohan123");
         driver.findElement(By.xpath("//*[@id=\"ConfirmPassword\"]")).sendKeys("rohan123");
-       driver.findElement(By.xpath("//button[@id='register-button']")).click();
+        driver.findElement(By.xpath("//button[@id='register-button']")).click();
 
         driver.close();
-
-
     }
 }
