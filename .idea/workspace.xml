@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220a7391-c4a9-4dbc-ae3e-f3ecb1abe683" name="Changes" comment="selenium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_homework_2_Registration/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium_homework_2_Registration/UtilsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/CodeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/a_WebDriverBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/f_ImplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/g_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumLearningClass_Unify/m_ScrollingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_driver_concept/RegisterConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_driver_concept/RegisterConcept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/SeleniumLearning_Unify"
+    "last_opened_file_path": "C:/Users/abhis/Downloads/Telegram Desktop/Nov2022BatchSeleniumLearning (2)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\abhis\IdeaProjects\SeleniumLearning_Unify\src\main\java\seleniumLearningClass_Unify" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seleniumLearningClass_Unify" />
     </key>
   </component>
   <component name="RunManager" selected="Application.RegisterConcept">
@@ -197,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682080542020</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="selenium">
+      <created>1682089767603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682089767603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
